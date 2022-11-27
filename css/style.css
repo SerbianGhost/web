@@ -1,0 +1,124 @@
+body,html{
+   height: 100%;
+   width: 100%;
+   background-color: #030303;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   max-width: 1246px;
+   margin: 0 auto;
+   overflow-x: hidden;
+}
+
+.header {
+   width: 100%;
+}
+.header__container {
+   padding: 20px;
+   text-align: center;
+}
+
+.header__button {
+   cursor: pointer;
+   font-size: 100%;
+   font-weight: 500;
+   height: 40px;
+   width: 45%;
+   border: 1px solid wheat;
+   border-radius: 5px;
+   background-color: transparent;
+   color: white;
+   font-weight: 700;
+}
+.header__button:hover{
+   background-color: yellow;
+   color: black;
+   border: none;
+   box-shadow: 0 0 20px rgb(255, 255, 0);
+transition: all 0.4s ease-in-out;
+}
+.links {
+}
+.links__container {
+   padding: 20px;
+}
+.links__link {
+   display: block;
+   width: 40%;
+   height: 50px;
+   padding-top: 13px;
+   border-radius: 5px;
+   margin: 0 auto;
+   margin-top: 30px;
+   text-align: center;
+   border: 1px solid wheat;
+   text-decoration: none;
+font-size: 100%;
+font-weight: 900;
+transition: transform 0.5s ease-in-out;
+}
+.html {
+   color: #3b19c2;
+   transform: translateX(-500%);
+}
+.html:hover{
+   border: none;
+   background-color: #3b19c2;
+   color: #030303;
+   box-shadow: 0 0 25px #3300ff ;
+   transition: all 0.5s ease-in-out;
+}
+.css {
+   
+   color: #930ee5;
+   transform: translateX(500%);
+}
+.css:hover{
+   background-color: #930ee5;
+   color: #030303;
+   box-shadow: 0 0 25px #9d00ff;
+   transition: all 1s ease-in-out;
+}
+
+.js {
+   color: yellow;
+   transform: translateX(-500%);
+}
+
+.js:hover{
+   border: none;
+   background-color: yellow;
+   color: #030303;
+   box-shadow: 0 0 20px rgb(255, 255, 0);
+   transition: all 0.5s ease-in-out;
+}
+
+.active{
+   transform: none;
+}
+/*------------------------TXT------------------------------------------*/
+.txt {
+   transform: translateY(-200px);
+   text-align: center;
+   color: white;
+   transition: all 0.5s ease-in-out;
+}
+.txt-hide{
+   transform: none;
+   opacity: 0;
+}
+.txt__container {
+}
+.txt__title{
+   margin-top: 10px;
+   color: #930ee5;
+}
+
+/*----------------------------------HTML----------------------------------------*/
+
+
